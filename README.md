@@ -34,11 +34,17 @@
     - [Etiqueta principal: `<a>`](#etiqueta-principal-a)
       - [Sintaxis básica](#sintaxis-básica)
       - [Atributos más comunes](#atributos-más-comunes)
+    - [Ten en cuenta que:](#ten-en-cuenta-que)
     - [Advertencias clave](#advertencias-clave-7)
   - [Tema 9: Imágenes y atributos relacionados](#tema-9-imágenes-y-atributos-relacionados)
     - [Etiqueta principal: `<img>`](#etiqueta-principal-img)
       - [Sintaxis básica](#sintaxis-básica-1)
     - [Atributos esenciales y comunes de `<img>`](#atributos-esenciales-y-comunes-de-img)
+    - [Tipos de rutas para `src`](#tipos-de-rutas-para-src)
+      - [Ruta relativa:](#ruta-relativa)
+      - [Ruta absoluta (URL externa):](#ruta-absoluta-url-externa)
+    - [Ten en cuenta estas buenas prácticas:](#ten-en-cuenta-estas-buenas-prácticas)
+    - [Advertencias clave](#advertencias-clave-8)
 
 
 
@@ -615,6 +621,16 @@ Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta 
 | `download` | Indica que el archivo se debe descargar.                                                                         |
 | `rel`      | Define la relación con el recurso (`nofollow`, `noopener`, `noreferrer`, etc.). Importante para seguridad y SEO. |
 
+### Ten en cuenta que:
+
+Los enlaces pueden envolver imágenes, íconos, etc.:
+
+```html
+<a href="https://twitter.com">
+  <img src="logo-twitter.png" alt="Twitter">
+</a>
+```
+
 ### Advertencias clave
 
 - Usa siempre `target="_blank"` con `rel="noopener noreferrer"` para enlaces externos por seguridad:
@@ -651,4 +667,35 @@ La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes
 | `referrerpolicy`       | Política de referencia de seguridad (`no-referrer`, etc.).                                              |
 | `class`, `id`, `style` | Atributos globales para personalización.                                                                |
 
+### Tipos de rutas para `src`
 
+#### Ruta relativa:
+
+```html
+<img src="img/logo.png" alt="Logo de la empresa">
+```
+
+#### Ruta absoluta (URL externa):
+
+```html
+<img src="https://example.com/logo.png" alt="Logo externo">
+```
+
+### Ten en cuenta estas buenas prácticas:
+
+- Usa **imágenes optimizadas** y de tamaño adecuado para evitar demoras de carga.
+- Siempre incluye un texto `alt` **descriptivo pero conciso**.
+- No pongas imágenes de fondo usando `<img>`. Usa CSS para eso.
+- Utiliza `loading="lazy"` para sitios con muchas imágenes (como catálogos o blogs).
+- Usa nombres de archivo claros y en minúsculas (`producto-verde.jpg`, no `IMG1234.JPG`).
+
+### Advertencias clave
+
+- Nunca dejes el atributo `alt` vacío **sin motivo**. Si la imagen es decorativa, entonces se justifica:
+
+  ```html
+  <img src="decorativa.png" alt="">
+  ```
+- No establezcas solo `width` o solo `height` sin mantener la proporción; puedes deformar la imagen.
+- Asegúrate de que las rutas de las imágenes sean correctas y estén bien organizadas.
+- Evita imágenes enormes si van a mostrarse pequeñas.
