@@ -36,6 +36,8 @@
       - [Atributos más comunes](#atributos-más-comunes)
     - [Advertencias clave](#advertencias-clave-7)
   - [Tema 9: Imágenes y atributos relacionados](#tema-9-imágenes-y-atributos-relacionados)
+    - [Etiqueta principal: `<img>`](#etiqueta-principal-img)
+      - [Sintaxis básica](#sintaxis-básica-1)
 
 
 
@@ -626,3 +628,11 @@ Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta 
 ## Tema 9: Imágenes y atributos relacionados
 
 La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes hacen que el contenido sea más visual y atractivo, y también pueden ser utilizadas para transmitir información clave. A diferencia de otras etiquetas, `<img>` es autocontenida, lo que significa que no necesita etiqueta de cierre.
+
+### Etiqueta principal: `<img>`
+
+#### Sintaxis básica
+
+```html
+<img src="ruta/imagen.jpg" alt="Descripción de la imagen">
+```
