@@ -650,3 +650,5 @@ La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes
 | `decoding`             | Método de decodificación (`sync`, `async`, `auto`).                                                     |
 | `referrerpolicy`       | Política de referencia de seguridad (`no-referrer`, etc.).                                              |
 | `class`, `id`, `style` | Atributos globales para personalización.                                                                |
+
+
