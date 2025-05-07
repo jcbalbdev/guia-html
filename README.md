@@ -34,6 +34,8 @@
     - [Etiqueta principal: `<a>`](#etiqueta-principal-a)
       - [Sintaxis básica](#sintaxis-básica)
       - [Atributos más comunes](#atributos-más-comunes)
+    - [Advertencias clave](#advertencias-clave-7)
+  - [Tema 9: Imágenes y atributos relacionados](#tema-9-imágenes-y-atributos-relacionados)
 
 
 
@@ -610,3 +612,15 @@ Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta 
 | `download` | Indica que el archivo se debe descargar.                                                                         |
 | `rel`      | Define la relación con el recurso (`nofollow`, `noopener`, `noreferrer`, etc.). Importante para seguridad y SEO. |
 
+### Advertencias clave
+
+- Usa siempre `target="_blank"` con `rel="noopener noreferrer"` para enlaces externos por seguridad:
+
+```html
+<a href="https://externo.com" target="_blank" rel="noopener noreferrer">Sitio externo</a>
+```
+- No uses `href="#"` sin propósito. Puede causar problemas si no está controlado con JavaScript.
+- Asegúrate de usar `alt` en imágenes dentro de enlaces para accesibilidad.
+- No pongas enlaces vacíos: siempre debe haber contenido visible o accesible.
+
+## Tema 9: Imágenes y atributos relacionados
