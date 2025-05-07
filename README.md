@@ -28,6 +28,7 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-3)
     - [Advertencias clave](#advertencias-clave-5)
   - [Tema 7: Etiquetas semánticas de sección](#tema-7-etiquetas-semánticas-de-sección)
+    - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-4)
 
 
 
@@ -431,3 +432,9 @@ Las **listas** en HTML permiten organizar contenido relacionado de forma estruct
 - siempre que tengas contenido que se organice naturalmente en pares donde un elemento define, describe o da valor a otro, la etiqueta `<dl>` junto con `<dt>` y `<dd>` es la elección semánticamente correcta
 
 ## Tema 7: Etiquetas semánticas de sección
+
+HTML5 introdujo etiquetas semánticas que permiten describir claramente las distintas secciones de una página web. Estas etiquetas no solo organizan mejor el contenido, sino que también mejoran el SEO, la accesibilidad y la legibilidad del código.
+
+En lugar de usar <div> para todo, estas etiquetas semánticas indican la función del contenido que contienen, lo cual ayuda tanto a los desarrolladores como a los motores de búsqueda.
+
+### Etiquetas HTML asociadas a este tema
