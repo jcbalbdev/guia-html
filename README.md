@@ -29,6 +29,7 @@
     - [Advertencias clave](#advertencias-clave-5)
   - [Tema 7: Etiquetas semánticas de sección](#tema-7-etiquetas-semánticas-de-sección)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-4)
+    - [Advertencias clave](#advertencias-clave-6)
 
 
 
@@ -569,3 +570,9 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
   </footer>
 </body>
 ```
+### Advertencias clave
+
+- Usa **una sola etiqueta** `<main>` por página.
+- No uses `<section>` sin encabezado (`<h2>`, `<h3>`, etc.).
+- Evita usar `<div>` si una etiqueta semántica puede expresar mejor la intención.
+- `<article>` es para contenido que **tiene sentido por sí solo** y podría distribuirse de forma independiente.
