@@ -31,6 +31,8 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-4)
     - [Advertencias clave](#advertencias-clave-6)
   - [Tema 8: Enlaces e hipervínculos](#tema-8-enlaces-e-hipervínculos)
+    - [Etiqueta principal: `<a>`](#etiqueta-principal-a)
+      - [Sintaxis básica](#sintaxis-básica)
 
 
 
@@ -579,3 +581,21 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 - `<article>` es para contenido que **tiene sentido por sí solo** y podría distribuirse de forma independiente.
 
 ## Tema 8: Enlaces e hipervínculos
+
+Los **enlaces o hipervínculos** permiten conectar una página con otra, o con un recurso externo. Son una parte esencial de la navegación en la web.
+
+Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta puede enlazar:
+
+- A otras páginas del mismo sitio.
+- A secciones específicas de la misma página.
+- A sitios externos.
+- A archivos descargables.
+- A correos electrónicos o números telefónicos.
+
+### Etiqueta principal: `<a>`
+
+#### Sintaxis básica
+
+```html
+<a href="https://example.com">Texto del enlace</a>
+```
