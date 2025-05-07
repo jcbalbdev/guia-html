@@ -466,3 +466,42 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
   </ul>
 </nav>
 ```
+
+3. `<main>`
+
+- **Uso:** Contiene el contenido principal del documento. Solo debe haber un `<main>` por página.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<main>
+  <h2>Contenido principal</h2>
+  <p>Aquí va lo más importante del sitio.</p>
+</main>
+```
+
+4. `<section>`
+
+- **Uso:** Agrupa contenido temáticamente relacionado. Generalmente, cada `<section>` debe tener un encabezado (un elemento `<h1>` - `<h6>`) que identifique el tema de esa sección.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<section>
+  <h3>Servicios</h3>
+  <p>Descripción de servicios.</p>
+</section>
+```
+
+5. `<article>`
+
+- **Uso:** Contenido independiente y reutilizable como un post, noticia o comentario.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<article>
+  <h3>Noticia</h3>
+  <p>Este es un artículo completo.</p>
+</article>
+```
