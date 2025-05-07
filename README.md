@@ -33,6 +33,7 @@
   - [Tema 8: Enlaces e hipervínculos](#tema-8-enlaces-e-hipervínculos)
     - [Etiqueta principal: `<a>`](#etiqueta-principal-a)
       - [Sintaxis básica](#sintaxis-básica)
+      - [🔹 Atributos más comunes](#-atributos-más-comunes)
 
 
 
@@ -599,3 +600,12 @@ Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta 
 ```html
 <a href="https://example.com">Texto del enlace</a>
 ```
+#### 🔹 Atributos más comunes
+
+| Atributo   | Descripción                                                                                                      |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| `href`     | Define la URL o destino del enlace.                                                                              |
+| `target`   | Especifica dónde abrir el enlace: `_self` (por defecto), `_blank` (nueva pestaña), `_parent`, `_top`.            |
+| `title`    | Texto emergente al pasar el mouse.                                                                               |
+| `download` | Indica que el archivo se debe descargar.                                                                         |
+| `rel`      | Define la relación con el recurso (`nofollow`, `noopener`, `noreferrer`, etc.). Importante para seguridad y SEO. |
