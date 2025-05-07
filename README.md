@@ -38,6 +38,7 @@
   - [Tema 9: Imágenes y atributos relacionados](#tema-9-imágenes-y-atributos-relacionados)
     - [Etiqueta principal: `<img>`](#etiqueta-principal-img)
       - [Sintaxis básica](#sintaxis-básica-1)
+    - [Atributos esenciales y comunes de `<img>`](#atributos-esenciales-y-comunes-de-img)
 
 
 
@@ -636,3 +637,16 @@ La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes
 ```html
 <img src="ruta/imagen.jpg" alt="Descripción de la imagen">
 ```
+### Atributos esenciales y comunes de `<img>`
+
+| Atributo               | Descripción                                                                                             |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- |
+| `src`                  | Ruta de la imagen (relativa o absoluta). **Obligatorio.**                                               |
+| `alt`                  | Texto alternativo si la imagen no carga o para lectores de pantalla. **Obligatorio por accesibilidad.** |
+| `title`                | Texto emergente al pasar el cursor sobre la imagen.                                                     |
+| `width`                | Ancho de la imagen (en px o %).                                                                         |
+| `height`               | Alto de la imagen.                                                                                      |
+| `loading`              | Optimización de carga (`lazy`, `eager`, `auto`).                                                        |
+| `decoding`             | Método de decodificación (`sync`, `async`, `auto`).                                                     |
+| `referrerpolicy`       | Política de referencia de seguridad (`no-referrer`, etc.).                                              |
+| `class`, `id`, `style` | Atributos globales para personalización.                                                                |
