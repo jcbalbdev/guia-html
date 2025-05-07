@@ -26,7 +26,8 @@
 - [🧱 Nivel 1 - Estructura y Organización](#-nivel-1---estructura-y-organización)
   - [Tema 6: Listas ordenadas, desordenadas y de definición](#tema-6-listas-ordenadas-desordenadas-y-de-definición)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-3)
-    - [⚠️ Advertencias clave](#️-advertencias-clave)
+    - [Advertencias clave](#advertencias-clave-5)
+  - [Tema 7: Etiquetas semánticas de sección](#tema-7-etiquetas-semánticas-de-sección)
 
 
 
@@ -420,7 +421,7 @@ Las **listas** en HTML permiten organizar contenido relacionado de forma estruct
   <dd>Lenguaje de estilo para la web.</dd>
 </dl>
 ```
-### ⚠️ Advertencias clave
+### Advertencias clave
 
 - **Nunca pongas texto suelto directamente dentro de** `<ul>` o `<ol>`. Siempre debe estar dentro de `<li>`.
 - Evita abusar de listas solo por sangrar contenido. Usa listas solo si los elementos realmente son ítems.
@@ -428,3 +429,5 @@ Las **listas** en HTML permiten organizar contenido relacionado de forma estruct
 - `<ul>` y `<ol>` no deben mezclarse dentro de la misma jerarquía sin cerrar correctamente las etiquetas.
 - Si solo tienes una lista de ítems sin una relación directa de término-descripción, usa `<ul>` (lista no ordenada) o `<ol>` (lista ordenada).
 - siempre que tengas contenido que se organice naturalmente en pares donde un elemento define, describe o da valor a otro, la etiqueta `<dl>` junto con `<dt>` y `<dd>` es la elección semánticamente correcta
+
+## Tema 7: Etiquetas semánticas de sección
