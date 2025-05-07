@@ -451,3 +451,18 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
   <nav>...</nav>
 </header>
 ```
+
+2. `<nav>`
+
+- **Uso:** Define una sección de navegación principal o interna como un menu de navegacion (dentro del header) o un indice (dentro del main).
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<nav>
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+  </ul>
+</nav>
+```
