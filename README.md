@@ -501,8 +501,20 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 
 ```html
 <article>
-  <h3>Noticia</h3>
-  <p>Este es un artículo completo.</p>
+  <h2>Título de una Entrada de Blog Principal</h2>
+  <p>Contenido de la entrada...</p>
+
+  <section>
+    <h3>Comentarios</h3>
+    <article class="comment">
+      <h4>Usuario1 dice:</h4>
+      <p>¡Gran artículo!</p>
+    </article>
+    <article class="comment">
+      <h4>Usuario2 dice:</h4>
+      <p>No estoy de acuerdo...</p>
+    </article>
+  </section>
 </article>
 ```
 
@@ -514,12 +526,12 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 
 ```html
 <aside>
-    <h2>Artículos Relacionados</h2>
-    <ul>
-      <li><a href="#">Otro artículo interesante</a></li>
-      <li><a href="#">Tema similar</a></li>
-    </ul>
-    <h2>Publicidad</h2>
-    <img src="anuncio.jpg" alt="Anuncio">
+  <h2>Artículos Relacionados</h2>
+  <ul>
+    <li><a href="#">Otro artículo interesante</a></li>
+    <li><a href="#">Tema similar</a></li>
+  </ul>
+  <h2>Publicidad</h2>
+  <img src="anuncio.jpg" alt="Anuncio">
 </aside>
 ```
