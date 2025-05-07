@@ -454,7 +454,7 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 
 2. `<nav>`
 
-- **Uso:** Define una sección de navegación principal o interna como un menu de navegacion (dentro del header) o un indice (dentro del main).
+- **Uso:** Define una sección de navegación principal o interna como un menu de navegacion (dentro del `<header>`) o un indice (dentro del `<main>`).
 
 - **Atributos comunes:** `class`, `id`, `style`
 
