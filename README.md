@@ -535,3 +535,37 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
   <img src="anuncio.jpg" alt="Anuncio">
 </aside>
 ```
+
+7. `<footer>`
+
+- **Uso:** Pie de página, tanto global como por sección.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<body>
+  <header>
+    <h1>Mi Blog Increíble</h1>
+  </header>
+  <main>
+    <article>
+      <h2>Un Artículo Interesante</h2>
+      <p>Contenido del artículo...</p>
+      <footer>
+        <p>Publicado por: Juan Pérez el 5 de mayo de 2025</p>
+        <p>Categorías: <a href="#">Tecnología</a>, <a href="#">Novedades</a></p>
+      </footer>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi Blog Increíble. Todos los derechos reservados.</p>
+    <address>
+      Contacto: <a href="mailto:info@miblogincreible.com">info@miblogincreible.com</a>
+    </address>
+    <ul>
+      <li><a href="/privacidad">Política de Privacidad</a></li>
+      <li><a href="/terminos">Términos de Servicio</a></li>
+    </ul>
+  </footer>
+</body>
+```
