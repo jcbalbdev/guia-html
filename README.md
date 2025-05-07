@@ -438,3 +438,16 @@ HTML5 introdujo etiquetas semánticas que permiten describir claramente las dist
 En lugar de usar <div> para todo, estas etiquetas semánticas indican la función del contenido que contienen, lo cual ayuda tanto a los desarrolladores como a los motores de búsqueda.
 
 ### Etiquetas HTML asociadas a este tema
+
+1. `<header>`
+
+- **Uso:** Representa el encabezado de una página o sección. Puede contener logos, menús, títulos, etc.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<header>
+  <h1>Mi sitio web</h1>
+  <nav>...</nav>
+</header>
+```
