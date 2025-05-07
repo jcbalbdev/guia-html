@@ -30,6 +30,7 @@
   - [Tema 7: Etiquetas semánticas de sección](#tema-7-etiquetas-semánticas-de-sección)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-4)
     - [Advertencias clave](#advertencias-clave-6)
+  - [Tema 8: Enlaces e hipervínculos](#tema-8-enlaces-e-hipervínculos)
 
 
 
@@ -576,3 +577,5 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 - No uses `<section>` sin encabezado (`<h2>`, `<h3>`, etc.).
 - Evita usar `<div>` si una etiqueta semántica puede expresar mejor la intención.
 - `<article>` es para contenido que **tiene sentido por sí solo** y podría distribuirse de forma independiente.
+
+## Tema 8: Enlaces e hipervínculos
