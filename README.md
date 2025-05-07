@@ -495,7 +495,7 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 
 5. `<article>`
 
-- **Uso:** Contenido independiente y reutilizable como un post, noticia o comentario.
+- **Uso:** Representa contenido independiente y reutilizable como un post, noticia o comentario.
 
 - **Atributos comunes:** `class`, `id`, `style`
 
