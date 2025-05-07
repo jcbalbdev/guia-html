@@ -505,3 +505,21 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
   <p>Este es un artículo completo.</p>
 </article>
 ```
+
+6. `<aside>`
+
+- **Uso:** Contenido complementario o relacionado, como una barra lateral, anuncios, widgets.
+
+- **Atributos comunes:** `class`, `id`, `style`
+
+```html
+<aside>
+    <h2>Artículos Relacionados</h2>
+    <ul>
+      <li><a href="#">Otro artículo interesante</a></li>
+      <li><a href="#">Tema similar</a></li>
+    </ul>
+    <h2>Publicidad</h2>
+    <img src="anuncio.jpg" alt="Anuncio">
+</aside>
+```
