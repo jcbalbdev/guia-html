@@ -538,7 +538,7 @@ En lugar de usar <div> para todo, estas etiquetas semánticas indican la funció
 
 7. `<footer>`
 
-- **Uso:** Pie de página, tanto global como por sección.
+- **Uso:** Se utiliza para marcar el contenido que funciona como el pie de página de un documento o de una sección particular.
 
 - **Atributos comunes:** `class`, `id`, `style`
 
