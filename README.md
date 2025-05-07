@@ -624,3 +624,5 @@ Se crean con la etiqueta `<a>`, que significa **anchor (ancla)**. Esta etiqueta 
 - No pongas enlaces vacíos: siempre debe haber contenido visible o accesible.
 
 ## Tema 9: Imágenes y atributos relacionados
+
+La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes hacen que el contenido sea más visual y atractivo, y también pueden ser utilizadas para transmitir información clave. A diferencia de otras etiquetas, `<img>` es autocontenida, lo que significa que no necesita etiqueta de cierre.
