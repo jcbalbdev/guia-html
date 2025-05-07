@@ -45,6 +45,7 @@
       - [Ruta absoluta (URL externa):](#ruta-absoluta-url-externa)
     - [Ten en cuenta estas buenas prácticas:](#ten-en-cuenta-estas-buenas-prácticas)
     - [Advertencias clave](#advertencias-clave-8)
+  - [Tema 10: Tablas (estructura y atributos básicos)](#tema-10-tablas-estructura-y-atributos-básicos)
 
 
 
@@ -699,3 +700,10 @@ La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes
 - No establezcas solo `width` o solo `height` sin mantener la proporción; puedes deformar la imagen.
 - Asegúrate de que las rutas de las imágenes sean correctas y estén bien organizadas.
 - Evita imágenes enormes si van a mostrarse pequeñas.
+
+## Tema 10: Tablas (estructura y atributos básicos)
+
+Las tablas en HTML permiten organizar información en filas y columnas, como en una hoja de cálculo. Son útiles para mostrar datos estructurados como horarios, comparativas, inventarios, entre otros.
+
+Una tabla se construye con varias etiquetas que definen su estructura.
+
