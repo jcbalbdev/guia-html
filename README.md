@@ -51,6 +51,7 @@
   - [Tema 11: Formateo de texto](#tema-11-formateo-de-texto)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-6)
     - [Advertencias clave](#advertencias-clave-9)
+  - [Tema 12: Multimedia: video y audio en HTML](#tema-12-multimedia-video-y-audio-en-html)
 
 
 
@@ -907,6 +908,10 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 - Usa `<blockquote>` para textos de **más de una oración** o **párrafos completos**.
 - Usa `<q>` solo para frases breves dentro de una oración.
 - El atributo `cite` es opcional pero recomendable si se conoce la fuente.
+
+## Tema 12: Multimedia: video y audio en HTML
+
+HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plugins como Flash. Puedes insertar videos y audios directamente en tu página usando las etiquetas <video> y <audio>. Estas etiquetas son altamente configurables y compatibles con la mayoría de navegadores modernos.
 
 
 
