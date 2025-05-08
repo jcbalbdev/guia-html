@@ -72,6 +72,7 @@
   - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
     - [Advertencias clave](#advertencias-clave-12)
+  - [Tema 17: Validación básica en formularios (sin JavaScript)](#tema-17-validación-básica-en-formularios-sin-javascript)
 
 
 
@@ -1268,3 +1269,4 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 - Usa `required`, `min`, `max`, `pattern` para validaciones sin JavaScript.
 - Para campos multiselección (`select multiple`) recuerda que necesitas manejar los datos como una lista del lado del servidor.
 
+## Tema 17: Validación básica en formularios (sin JavaScript)
