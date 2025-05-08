@@ -1209,3 +1209,23 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 ```html
 <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
 ```
+
+3. `<textarea>`
+
+- **Uso**: Campo de texto **multilínea** (comentarios, descripciones, etc.).
+- **Se debe cerrar con** `</textarea>` y el contenido por defecto se coloca dentro.
+
+---
+
+- **Atributos**:
+
+- `name`: Nombre del campo (clave al enviar).
+- `rows`: Número de filas visibles.
+- `cols`: Número de columnas visibles.
+- `placeholder`: Texto guía dentro del campo.
+- `maxlength`: Límite de caracteres permitidos.
+- `required`: Hace obligatorio completar el campo.
+
+```html
+<textarea name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí"></textarea>
+```
