@@ -1242,3 +1242,19 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
   <option value="ar">Argentina</option>
 </select>
 ```
+- **Atributos útiles** para `<select>` y `<option>`:
+
+- `multiple`: permite seleccionar **varias opciones**.
+- `selected`: define el **valor preseleccionado** dentro de una etiqueta `<option>`.
+- `disabled`: indica que la **opción está deshabilitada** y no puede seleccionarse.
+
+
+5. `<button>`
+
+- **Uso**: Botón que puede enviar formularios, ejecutar scripts, o actuar como botón genérico.
+
+```html
+<button type="submit">Enviar</button>
+<button type="reset">Limpiar</button>
+<button type="button">Solo botón</button>
+```
