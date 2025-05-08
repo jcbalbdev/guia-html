@@ -49,6 +49,7 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-5)
 - [🧰 Nivel 2 - Formatos y Multimedia](#-nivel-2---formatos-y-multimedia)
   - [Tema 11: Formateo de texto](#tema-11-formateo-de-texto)
+    - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-6)
 
 
 
@@ -787,3 +788,21 @@ Una tabla se construye con varias etiquetas que definen su estructura.
 # 🧰 Nivel 2 - Formatos y Multimedia
 
 ## Tema 11: Formateo de texto
+
+HTML incluye varias etiquetas para formatear y resaltar partes del texto con distintos significados semánticos. No solo cambian el estilo visual (negrita, cursiva, subrayado), sino que también indican su propósito o importancia, lo que es fundamental para accesibilidad y SEO.
+
+Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente — para eso está el CSS — sino para señalar el significado del contenido.
+
+### Etiquetas HTML asociadas a este tema
+
+1. `<strong>`
+
+- **Uso**: Resalta texto con **énfasis fuerte** o importancia. Generalmente se muestra en **negrita**.
+
+- **Equivalente semántico a decir** "esto es muy importante".
+
+```html
+<p><strong>Atención:</strong> Este producto es inflamable.</p>
+```
+
+
