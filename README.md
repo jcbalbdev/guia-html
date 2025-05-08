@@ -67,6 +67,7 @@
   - [Tema 15: Introducción a formularios y la etiqueta `<form>`](#tema-15-introducción-a-formularios-y-la-etiqueta-form)
     - [Etiqueta principal: `<form>`](#etiqueta-principal-form)
     - [Atributos más comunes de `<form>`](#atributos-más-comunes-de-form)
+    - [¿Cómo funciona un formulario?](#cómo-funciona-un-formulario)
 
 
 
@@ -1100,8 +1101,9 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 ### Etiqueta principal: `<form>`
 
 ```html
-<form action="/procesar" method="post">
-  <!-- Campos del formulario aquí -->
+<form action="gracias.html" target="_blank">
+  <input type="text" name="nombre">
+  <button type="submit">Enviar</button>
 </form>
 ```
 
@@ -1114,4 +1116,11 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 | `target`       | Dónde abrir la respuesta (`_self`, `_blank`, etc.).                      |
 | `autocomplete` | Activa/desactiva sugerencias del navegador (`on`, `off`).                |
 | `novalidate`   | Desactiva validaciones automáticas del navegador.                        |
+
+### ¿Cómo funciona un formulario?
+
+1. El usuario **rellena los campos** del formulario.
+2. El navegador **envía los datos** según el método (`get` o `post`).
+3. El servidor (o script de procesamiento) **recibe los datos** para procesarlos, almacenarlos o responder.
+
 
