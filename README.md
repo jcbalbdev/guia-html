@@ -73,6 +73,7 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
     - [Advertencias clave](#advertencias-clave-12)
   - [Tema 17: Validación básica en formularios (sin JavaScript)](#tema-17-validación-básica-en-formularios-sin-javascript)
+    - [Atributos de validación comunes](#atributos-de-validación-comunes)
 
 
 
@@ -1270,3 +1271,18 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 - Para campos multiselección (`select multiple`) recuerda que necesitas manejar los datos como una lista del lado del servidor.
 
 ## Tema 17: Validación básica en formularios (sin JavaScript)
+
+HTML5 proporciona validación automática y accesible directamente desde el navegador, sin necesidad de usar JavaScript. Esto permite asegurarse de que los usuarios ingresen información válida antes de enviar el formulario.
+
+Las validaciones se definen a través de atributos en las etiquetas de formulario como ``<input>``, ``<select>``, ``<textarea>``, etc.
+
+### Atributos de validación comunes
+
+| Atributo                 | Aplicación                        | Función                                           |
+| ------------------------ | --------------------------------- | ------------------------------------------------- |
+| `required`               | Todos                             | Campo obligatorio                                 |
+| `min`, `max`             | `number`, `date`, `range`         | Establece valores mínimo/máximo                   |
+| `maxlength`, `minlength` | `text`, `email`, `password`, etc. | Longitud mínima/máxima                            |
+| `pattern`                | `text`, `tel`, etc.               | Expresión regular (regex) para validar formato    |
+| `step`                   | `number`, `date`, `range`         | Incremento permitido                              |
+| `type`                   | `email`, `url`, etc.              | Valida automáticamente el formato correspondiente |
