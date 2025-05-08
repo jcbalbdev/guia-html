@@ -845,4 +845,12 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 <p>Precio anterior: <del>S/ 50</del> <ins>S/ 40</ins></p>
 ```
 
+6. `<sub>` y `<sup>`
+
+- `<sub>`: Subíndice (ej. fórmulas químicas: H<sub>2</sub>O).
+- `<sup>`: Superíndice (ej. potencias: x<sup>2</sup>).
+
+```html
+<p>La fórmula es H<sub>2</sub>O y E = mc<sup>2</sup></p>
+```
 
