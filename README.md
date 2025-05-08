@@ -74,6 +74,7 @@
     - [Advertencias clave](#advertencias-clave-12)
   - [Tema 17: Validación básica en formularios (sin JavaScript)](#tema-17-validación-básica-en-formularios-sin-javascript)
     - [Atributos de validación comunes](#atributos-de-validación-comunes)
+    - [Advertencias clave](#advertencias-clave-13)
 
 
 
@@ -1359,3 +1360,14 @@ Las validaciones se definen a través de atributos en las etiquetas de formulari
     <button type="reset">Limpiar</button>
   </form>
 ```
+
+### Advertencias clave
+
+- Estas validaciones funcionan **antes de enviar el formulario**, pero **no reemplazan la validación del lado del servidor** (por seguridad).
+
+- `pattern` usa expresiones regulares, que son potentes pero pueden ser complejas. Valida bien su sintaxis.
+
+- Si el navegador no soporta un tipo de validación, puede comportarse como un campo de texto común  
+  (aunque todos los navegadores modernos las soportan).
+
+- Usa `placeholder` como ayuda visual, pero **no como reemplazo** del `label`.
