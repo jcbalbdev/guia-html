@@ -1286,3 +1286,76 @@ Las validaciones se definen a través de atributos en las etiquetas de formulari
 | `pattern`                | `text`, `tel`, etc.               | Expresión regular (regex) para validar formato    |
 | `step`                   | `number`, `date`, `range`         | Incremento permitido                              |
 | `type`                   | `email`, `url`, etc.              | Valida automáticamente el formato correspondiente |
+
+```html
+<form action="procesar.html" method="post">
+    
+    <!-- NOMBRE -->
+    <label for="nombre">Nombre completo:</label><br>
+    <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Ej. Juan Pérez"><br><br>
+
+    <!-- CORREO -->
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo" required placeholder="Ej. correo@ejemplo.com"><br><br>
+
+    <!-- TELÉFONO -->
+    <label for="telefono">Teléfono (9 dígitos):</label><br>
+    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required placeholder="Ej. 987654321" title="Debe contener exactamente 9 dígitos"><br><br>
+
+    <!-- EDAD -->
+    <label for="edad">Edad (18 a 99):</label><br>
+    <input type="number" id="edad" name="edad" min="18" max="99" required><br><br>
+
+    <!-- CONTRASEÑA -->
+    <label for="clave">Contraseña (mínimo 8 caracteres, con letra y número):</label><br>
+    <input type="password" id="clave" name="clave" 
+      pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" 
+      title="Debe tener al menos 8 caracteres, una letra y un número" 
+      required><br><br>
+
+    <!-- COLOR -->
+    <label for="color">Color favorito:</label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <!-- FECHA DE NACIMIENTO -->
+    <label for="fecha">Fecha de nacimiento:</label><br>
+    <input type="date" id="fecha" name="fecha" required><br><br>
+
+    <!-- SELECCIÓN DE PAÍS -->
+    <label for="pais">País:</label><br>
+    <select id="pais" name="pais" required>
+      <option value="">-- Selecciona tu país --</option>
+      <option value="pe">Perú</option>
+      <option value="mx">México</option>
+      <option value="ar">Argentina</option>
+    </select><br><br>
+
+    <!-- GÉNERO -->
+    <p>Género:</p>
+    <input type="radio" id="masculino" name="genero" value="M" required>
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino" name="genero" value="F">
+    <label for="femenino">Femenino</label><br><br>
+
+    <!-- INTERESES -->
+    <p>Intereses:</p>
+    <input type="checkbox" id="html" name="intereses" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="css" name="intereses" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="js" name="intereses" value="js">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- MENSAJE -->
+    <label for="mensaje">Mensaje (opcional, máx. 300 caracteres):</label><br>
+    <textarea id="mensaje" name="mensaje" maxlength="300" placeholder="Escribe algo..."></textarea><br><br>
+
+    <!-- ARCHIVO -->
+    <label for="cv">Sube tu CV (opcional):</label><br>
+    <input type="file" id="cv" name="cv"><br><br>
+
+    <!-- BOTONES -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+  </form>
+```
