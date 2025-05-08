@@ -62,6 +62,7 @@
   - [Tema 14: Entidades HTML (símbolos especiales)](#tema-14-entidades-html-símbolos-especiales)
     - [Sintaxis de una entidad HTML](#sintaxis-de-una-entidad-html)
     - [Entidades HTML comunes](#entidades-html-comunes)
+    - [Advertencias clave](#advertencias-clave-11)
 
 
 
@@ -1076,6 +1077,13 @@ O :
 | ✔       | `&#10003;` | Check                                                           |
 | ×       | `&times;`  | Multiplicación                                                  |
 | ÷       | `&divide;` | División                                                        |
+
+### Advertencias clave
+
+- No escribas directamente los símbolos `<`, `>`, `&` en tu contenido si no están dentro de etiquetas: **usa entidades** para evitar errores de interpretación.
+- No abuses de entidades decorativas que no aportan significado.
+- Las entidades **no deben usarse para estilos visuales**: usa CSS si solo quieres apariencia.
+- Algunas entidades solo funcionan con determinados conjuntos de caracteres. Asegúrate de tener `<meta charset="UTF-8">` en tu `<head>`.
 
 
 
