@@ -63,6 +63,7 @@
     - [Sintaxis de una entidad HTML](#sintaxis-de-una-entidad-html)
     - [Entidades HTML comunes](#entidades-html-comunes)
     - [Advertencias clave](#advertencias-clave-11)
+- [🧪 Nivel 3 - Formularios](#-nivel-3---formularios)
 
 
 
@@ -1084,6 +1085,8 @@ O :
 - No abuses de entidades decorativas que no aportan significado.
 - Las entidades **no deben usarse para estilos visuales**: usa CSS si solo quieres apariencia.
 - Algunas entidades solo funcionan con determinados conjuntos de caracteres. Asegúrate de tener `<meta charset="UTF-8">` en tu `<head>`.
+
+# 🧪 Nivel 3 - Formularios
 
 
 
