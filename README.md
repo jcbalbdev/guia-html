@@ -47,6 +47,8 @@
     - [Advertencias clave](#advertencias-clave-8)
   - [Tema 10: Tablas (estructura y atributos básicos)](#tema-10-tablas-estructura-y-atributos-básicos)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-5)
+- [🧰 Nivel 2 - Formatos y Multimedia](#-nivel-2---formatos-y-multimedia)
+  - [Tema 11: Formateo de texto](#tema-11-formateo-de-texto)
 
 
 
@@ -782,4 +784,6 @@ Una tabla se construye con varias etiquetas que definen su estructura.
 </table>
 ```
 
+# 🧰 Nivel 2 - Formatos y Multimedia
 
+## Tema 11: Formateo de texto
