@@ -55,6 +55,9 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-7)
     - [Advertencias clave](#advertencias-clave-10)
   - [Tema 13: Iframes y contenido embebido](#tema-13-iframes-y-contenido-embebido)
+    - [Etiquetas HTML principal: `<iframe>`](#etiquetas-html-principal-iframe)
+    - [Atributos comunes de `<iframe>`](#atributos-comunes-de-iframe)
+    - [Ejemplo común de uso de `<iframe>`](#ejemplo-común-de-uso-de-iframe)
 
 
 
@@ -956,8 +959,37 @@ HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plu
 
 ## Tema 13: Iframes y contenido embebido
 
-Un iframe (inline frame) permite insertar otro documento HTML o contenido externo dentro de una página. Es muy usado para mostrar videos de YouTube, mapas de Google, formularios, documentos PDF o incluso sitios web completos sin redirigir al usuario.
+Un **iframe** (inline frame) permite **insertar otro documento HTML o contenido externo** dentro de una página. 
+
+Es muy usado para mostrar **videos de YouTube**, **mapas de Google**, **formularios**, **documentos PDF** o incluso **sitios web completos** sin redirigir al usuario.
+
+### Etiquetas HTML principal: `<iframe>`
 
 ```html
 <iframe src="https://ejemplo.com" width="600" height="400"></iframe>
+```
+### Atributos comunes de `<iframe>`
+
+| Atributo           | Descripción                                                                       |
+| ------------------ | --------------------------------------------------------------------------------- |
+| `src`              | URL del contenido que se quiere incrustar.                                        |
+| `width` / `height` | Dimensiones del iframe.                                                           |
+| `title`            | Descripción del contenido (accesibilidad). **Muy importante para accesibilidad.** |
+| `loading`          | Control de carga: `lazy` o `eager`.                                               |
+| `allowfullscreen`  | Permite que el contenido (como videos) se vea en pantalla completa.               |
+| `referrerpolicy`   | Controla el envío del encabezado `Referer`.                                       |
+| `sandbox`          | Restringe ciertas funciones del contenido embebido (seguridad).                   |
+
+### Ejemplo común de uso de `<iframe>`
+
+1. YouTube (video embebido)
+
+```html
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="Video de YouTube"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
 ```
