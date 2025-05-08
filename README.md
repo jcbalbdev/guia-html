@@ -1229,3 +1229,8 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 ```html
 <textarea name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí"></textarea>
 ```
+
+4. ``<select>`` y ``<option>``
+
+- **Uso**: Menú desplegable con una o varias opciones.
+
