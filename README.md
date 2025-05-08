@@ -993,3 +993,23 @@ Es muy usado para mostrar **videos de YouTube**, **mapas de Google**, **formular
     allowfullscreen>
 </iframe>
 ```
+Puedes obtener este código desde el botón "Compartir > Insertar" en cualquier video de YouTube.
+
+2. Google Maps
+
+```html
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18..."
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+```
+Puedes obtener este iframe desde la opción "Compartir mapa > Insertar un mapa" en Google Maps.
+
+
+
+
