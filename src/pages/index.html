@@ -79,7 +79,13 @@
       <option value="swift">Swift</option>
       <option value="go">Go</option>
     </select>  
-
+    <form>
+      <label for="clave">Contraseña (al menos 8 caracteres, una letra y un número):</label>
+      <input type="password" id="clave" name="clave"
+        pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" required>
+      <button type="submit">Enviar</button>
+    </form>
+    
 
   </body>
 </html>
