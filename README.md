@@ -58,6 +58,8 @@
     - [Etiquetas HTML principal: `<iframe>`](#etiquetas-html-principal-iframe)
     - [Atributos comunes de `<iframe>`](#atributos-comunes-de-iframe)
     - [Ejemplo común de uso de `<iframe>`](#ejemplo-común-de-uso-de-iframe)
+    - [Advertencias clave sobre `<iframe>`](#advertencias-clave-sobre-iframe)
+  - [Tema 14: Entidades HTML (símbolos especiales)](#tema-14-entidades-html-símbolos-especiales)
 
 
 
@@ -1021,7 +1023,15 @@ Puedes obtener este iframe desde la opción "Compartir mapa > Insertar un mapa" 
 </iframe>
 ```
 
+### Advertencias clave sobre `<iframe>`
 
+- **No uses `<iframe>`** para maquetar contenido del mismo sitio; solo para contenido externo o específico.
+- Algunos sitios como **Instagram**, **Facebook** o **TikTok** pueden **bloquear iframes** por políticas de seguridad (CORS).
+- Siempre proporciona un atributo **`title`** para accesibilidad.
+- Usa **`loading="lazy"`** para mejorar la **velocidad de carga** en páginas con varios iframes.
+- Agrega **`allowfullscreen`** solo si se necesita esa funcionalidad (por ejemplo, para videos).
+
+## Tema 14: Entidades HTML (símbolos especiales)
 
 
 
