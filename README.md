@@ -1010,6 +1010,16 @@ Puedes obtener este código desde el botón "Compartir > Insertar" en cualquier 
 ```
 Puedes obtener este iframe desde la opción "Compartir mapa > Insertar un mapa" en Google Maps.
 
+3. Mostrar un archivo PDF
+
+```html
+<iframe 
+  src="documento.pdf" 
+  width="100%" 
+  height="500" 
+  title="Documento PDF">
+</iframe>
+```
 
 
 
