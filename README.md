@@ -68,6 +68,7 @@
     - [Etiqueta principal: `<form>`](#etiqueta-principal-form)
     - [Atributos más comunes de `<form>`](#atributos-más-comunes-de-form)
     - [¿Cómo funciona un formulario?](#cómo-funciona-un-formulario)
+    - [Notas adicionales](#notas-adicionales)
 
 
 
@@ -1123,4 +1124,9 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 2. El navegador **envía los datos** según el método (`get` o `post`).
 3. El servidor (o script de procesamiento) **recibe los datos** para procesarlos, almacenarlos o responder.
 
+### Notas adicionales
+
+- Todos los campos que recogen datos van **dentro del** `<form>`.
+- El atributo `name` en los campos es **clave**: define el nombre que se usará al enviar los datos.
+- Puedes enviar formularios incluso sin usar JavaScript. Solo con HTML.
 
