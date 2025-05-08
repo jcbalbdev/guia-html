@@ -805,4 +805,44 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 <p><strong>Atención:</strong> Este producto es inflamable.</p>
 ```
 
+2. `<em>`
+
+- **Uso**: Añade **énfasis** a una palabra o frase. Generalmente se muestra en *cursiva*.
+
+- **Equivalente a leer algo con entonación o énfasis emocional**.
+
+```html
+<p>Este producto es <em>realmente</em> útil.</p>
+```
+
+3. `<mark>`
+
+- **Uso**: Resalta un fragmento de texto como si lo hubieras **marcado con resaltador**.
+
+- **Muy útil en resultados de búsqueda o para destacar información**.
+
+```html
+<p>Busca la palabra <mark>clave</mark> en este texto.</p>
+```
+
+4. `<small>`
+
+- **Uso**: Representa texto en tamaño más pequeño (nota al pie, aclaraciones).
+
+- **Tiene valor semántico para cosas menos importantes**.
+
+```html
+<p>© 2025 Mi Empresa <small>Todos los derechos reservados</small></p>
+```
+
+5. `<del>` y `<ins>`
+
+- `<del>`: Texto eliminado (tachado).
+- `<ins>`: Texto insertado (subrayado por defecto).
+- **Útil en ediciones de contenido o historial de cambios**.
+
+```html
+<p>Precio anterior: <del>S/ 50</del> <ins>S/ 40</ins></p>
+```
+
 
