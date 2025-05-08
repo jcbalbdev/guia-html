@@ -1103,7 +1103,8 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 
 ```html
 <form action="gracias.html" target="_blank">
-  <input type="text" name="nombre">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre"><br><br>
   <button type="submit">Enviar</button>
 </form>
 ```
