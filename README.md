@@ -46,6 +46,7 @@
     - [Ten en cuenta estas buenas prácticas:](#ten-en-cuenta-estas-buenas-prácticas)
     - [Advertencias clave](#advertencias-clave-8)
   - [Tema 10: Tablas (estructura y atributos básicos)](#tema-10-tablas-estructura-y-atributos-básicos)
+    - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-5)
 
 
 
@@ -706,4 +707,79 @@ La etiqueta `<img>` permite insertar imágenes en una página web. Las imágenes
 Las tablas en HTML permiten organizar información en filas y columnas, como en una hoja de cálculo. Son útiles para mostrar datos estructurados como horarios, comparativas, inventarios, entre otros.
 
 Una tabla se construye con varias etiquetas que definen su estructura.
+
+### Etiquetas HTML asociadas a este tema
+
+1. `<table>`
+
+- **Uso**: Define el inicio y fin de una tabla.
+
+- **Atributos comunes**:
+  - `border` *(obsoleto)*: crea borde simple. Mejor usar CSS.
+  - `class`, `id`, `style`.
+
+```html
+<table>...</table>
+```
+
+2. `<tr>` — Table Row
+
+- **Uso**: Representa una fila de la tabla.
+
+```html
+<tr>
+  <td>Celda 1</td>
+  <td>Celda 2</td>
+</tr>
+```
+
+3. `<td>` — Table Data
+
+- **Uso**: Representa una celda de datos.
+
+- **Atributos comunes**:
+  - `colspan`: para que una celda ocupe varias columnas.
+  - `rowspan`: para que una celda ocupe varias filas.
+
+```html
+<td colspan="2">Celda que ocupa dos columnas</td>
+```
+
+4. `<th>` — Table Header
+
+- **Uso**: Crea una celda de encabezado (se ve en negrita y centrado por defecto).
+
+- **Atributos comunes**: igual que `<td>`.
+
+```html
+<th>Nombre</th>
+```
+
+5. `<thead>`, `<tbody>`, `<tfoot>`
+
+- **Uso**: Agrupan secciones de la tabla para mejorar la estructura y accesibilidad.
+
+```html
+<table>
+  <thead> <!-- encabezado -->
+    <tr>
+      <th>Producto</th>
+      <th>Precio</th>
+    </tr>
+  </thead>
+  <tbody> <!-- contenido -->
+    <tr>
+      <td>Manzana</td>
+      <td>S/ 2.50</td>
+    </tr>
+  </tbody>
+  <tfoot> <!-- pie -->
+    <tr>
+      <td>Total</td>
+      <td>S/ 2.50</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
 
