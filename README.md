@@ -60,6 +60,7 @@
     - [Ejemplo común de uso de `<iframe>`](#ejemplo-común-de-uso-de-iframe)
     - [Advertencias clave sobre `<iframe>`](#advertencias-clave-sobre-iframe)
   - [Tema 14: Entidades HTML (símbolos especiales)](#tema-14-entidades-html-símbolos-especiales)
+    - [Sintaxis de una entidad HTML](#sintaxis-de-una-entidad-html)
 
 
 
@@ -1032,6 +1033,17 @@ Puedes obtener este iframe desde la opción "Compartir mapa > Insertar un mapa" 
 - Agrega **`allowfullscreen`** solo si se necesita esa funcionalidad (por ejemplo, para videos).
 
 ## Tema 14: Entidades HTML (símbolos especiales)
+
+HTML utiliza ciertos caracteres para su propia sintaxis, como `<`, `>`, `&` y `"`. Para poder mostrar estos caracteres literalmente en la página, debes usar entidades HTML, que son combinaciones especiales que el navegador interpreta y reemplaza por el símbolo correspondiente.
+
+También puedes usar entidades para insertar símbolos especiales, como signos de copyright, flechas, letras griegas, y más.
+
+### Sintaxis de una entidad HTML
+
+```html
+&nombreEntidad;
+```
+O también:
 
 
 
