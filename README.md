@@ -65,6 +65,8 @@
     - [Advertencias clave](#advertencias-clave-11)
 - [🧪 Nivel 3 - Formularios](#-nivel-3---formularios)
   - [Tema 15: Introducción a formularios y la etiqueta `<form>`](#tema-15-introducción-a-formularios-y-la-etiqueta-form)
+    - [Etiqueta principal: `<form>`](#etiqueta-principal-form)
+    - [Atributos más comunes de `<form>`](#atributos-más-comunes-de-form)
 
 
 
@@ -1094,4 +1096,22 @@ O :
 Los formularios en HTML permiten recopilar datos del usuario (como nombre, email, contraseña, selección de opciones, archivos, etc.). Son esenciales en sitios como tiendas, registros, encuestas o páginas de contacto.
 
 Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor de todos los campos interactivos y botones de envío.
+
+### Etiqueta principal: `<form>`
+
+```html
+<form action="/procesar" method="post">
+  <!-- Campos del formulario aquí -->
+</form>
+```
+
+### Atributos más comunes de `<form>`
+
+| **Atributo**   | **Descripción**                                                          |
+| -------------- | ------------------------------------------------------------------------ |
+| `action`       | URL a la que se enviarán los datos (puede ser un archivo o endpoint).    |
+| `method`       | Método de envío: `get` (datos visibles en la URL) o `post` (más seguro). |
+| `target`       | Dónde abrir la respuesta (`_self`, `_blank`, etc.).                      |
+| `autocomplete` | Activa/desactiva sugerencias del navegador (`on`, `off`).                |
+| `novalidate`   | Desactiva validaciones automáticas del navegador.                        |
 
