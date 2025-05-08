@@ -1091,5 +1091,7 @@ O :
 
 ## Tema 15: Introducción a formularios y la etiqueta `<form>`
 
+Los formularios en HTML permiten recopilar datos del usuario (como nombre, email, contraseña, selección de opciones, archivos, etc.). Son esenciales en sitios como tiendas, registros, encuestas o páginas de contacto.
 
+Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor de todos los campos interactivos y botones de envío.
 
