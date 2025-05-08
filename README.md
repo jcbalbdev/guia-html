@@ -955,3 +955,9 @@ HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plu
 
 
 ## Tema 13: Iframes y contenido embebido
+
+Un iframe (inline frame) permite insertar otro documento HTML o contenido externo dentro de una página. Es muy usado para mostrar videos de YouTube, mapas de Google, formularios, documentos PDF o incluso sitios web completos sin redirigir al usuario.
+
+```html
+<iframe src="https://ejemplo.com" width="600" height="400"></iframe>
+```
