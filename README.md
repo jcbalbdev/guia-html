@@ -932,4 +932,16 @@ HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plu
 | `width`, `height` | Define el tamaño del reproductor.                                              |
 | `preload`         | Indica si se debe cargar el video con antelación (`auto`, `metadata`, `none`). |
 
+```html
+<video src="video.mp4" width="400" controls></video>
+```
+
+2. `<audio>`
+
+- **Uso:** Insertar archivos de audio (como música, efectos, podcasts).
+- **Atributos:** similares a `<video>`.
+
+```html
+<audio src="audio.mp3" controls></audio>
+```
 
