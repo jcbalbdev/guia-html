@@ -61,6 +61,7 @@
     - [Advertencias clave sobre `<iframe>`](#advertencias-clave-sobre-iframe)
   - [Tema 14: Entidades HTML (símbolos especiales)](#tema-14-entidades-html-símbolos-especiales)
     - [Sintaxis de una entidad HTML](#sintaxis-de-una-entidad-html)
+    - [Entidades HTML comunes](#entidades-html-comunes)
 
 
 
@@ -1053,5 +1054,28 @@ O :
 ```html
 &#xCódigoHexadecimal;
 ```
+### Entidades HTML comunes
+
+| Símbolo | Entidad    | Descripción                                                     |
+| ------- | ---------- | --------------------------------------------------------------- |
+| <       | `&lt;`     | Menor que                                                       |
+| >       | `&gt;`     | Mayor que                                                       |
+| &       | `&amp;`    | Ampersand                                                       |
+| "       | `&quot;`   | Comillas dobles                                                 |
+| '       | `&apos;`   | Comilla simple (no soportada en todos los navegadores antiguos) |
+| ©       | `&copy;`   | Copyright                                                       |
+| ®       | `&reg;`    | Marca registrada                                                |
+| €       | `&euro;`   | Euro                                                            |
+| ¥       | `&yen;`    | Yen japonés                                                     |
+| →       | `&rarr;`   | Flecha derecha                                                  |
+| ←       | `&larr;`   | Flecha izquierda                                                |
+| ↑       | `&uarr;`   | Flecha arriba                                                   |
+| ↓       | `&darr;`   | Flecha abajo                                                    |
+| ±       | `&plusmn;` | Más/menos                                                       |
+| ∞       | `&infin;`  | Infinito                                                        |
+| ✔       | `&#10003;` | Check                                                           |
+| ×       | `&times;`  | Multiplicación                                                  |
+| ÷       | `&divide;` | División                                                        |
+
 
 
