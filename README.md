@@ -1045,5 +1045,13 @@ También puedes usar entidades para insertar símbolos especiales, como signos d
 ```
 O también:
 
+```html
+&#códigoDecimal;
+```
+O :
+
+```html
+&#xCódigoHexadecimal;
+```
 
 
