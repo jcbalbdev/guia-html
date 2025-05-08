@@ -71,8 +71,6 @@
     - [Notas adicionales](#notas-adicionales)
   - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
-    - [1. `<label>`](#1-label)
-      - [Atributos:](#atributos)
 
 
 
@@ -1148,7 +1146,7 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 
 ### Etiquetas HTML asociadas a este tema
 
-### 1. `<label>`
+1. `<label>`
 
 - **Uso**: Asocia un texto descriptivo con un campo del formulario.
 
@@ -1158,7 +1156,7 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 
 ---
 
-#### Atributos:
+- **Atributos**:
 
 | Atributo               | Descripción                        |
 | ---------------------- | ---------------------------------- |
@@ -1168,4 +1166,46 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 ```html
 <label for="nombre">Nombre:</label>
 <input id="nombre" type="text" name="nombre">
+```
+
+2. `<input>`
+
+- **Uso**: Campo versátil que cambia su comportamiento según el atributo `type`.
+
+---
+
+- **Tipos más comunes y sus usos**:
+
+| `type`     | Descripción                                |
+| ---------- | ------------------------------------------ |
+| `text`     | Texto de una sola línea                    |
+| `email`    | Email con validación básica                |
+| `password` | Campo oculto para contraseñas              |
+| `number`   | Solo números                               |
+| `date`     | Selector de fecha                          |
+| `checkbox` | Casilla de verificación (sí/no)            |
+| `radio`    | Botones de opción única                    |
+| `file`     | Selector de archivo                        |
+| `hidden`   | Campo no visible (útil para datos ocultos) |
+| `range`    | Selector tipo deslizador                   |
+| `color`    | Selector de color                          |
+| `search`   | Campo de búsqueda                          |
+| `tel`      | Números telefónicos                        |
+| `url`      | Validación de URLs                         |
+| `submit`   | Botón para enviar formulario               |
+| `reset`    | Botón para limpiar campos                  |
+
+---
+
+- **Atributos útiles**:
+
+- `name`: Nombre del dato (**obligatorio** para enviar).
+- `value`: Valor por defecto o actual.
+- `required`: Hace obligatorio el campo.
+- `placeholder`: Texto guía.
+- `min`, `max`, `step`: Rango de valores para `number`, `date`, etc.
+- `checked`: Para `checkbox` y `radio`.
+
+```html
+<input type="text" name="nombre" placeholder="Escribe tu nombre" required>
 ```
