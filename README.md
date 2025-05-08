@@ -1234,3 +1234,11 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 
 - **Uso**: Menú desplegable con una o varias opciones.
 
+```html
+<label for="pais">País:</label>
+<select id="pais" name="pais">
+  <option value="pe">Perú</option>
+  <option value="mx">México</option>
+  <option value="ar">Argentina</option>
+</select>
+```
