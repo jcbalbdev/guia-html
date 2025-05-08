@@ -71,6 +71,7 @@
     - [Notas adicionales](#notas-adicionales)
   - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
+    - [Advertencias clave](#advertencias-clave-12)
 
 
 
@@ -1258,3 +1259,12 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 <button type="reset">Limpiar</button>
 <button type="button">Solo botón</button>
 ```
+
+### Advertencias clave
+
+- No olvides el atributo `name` si vas a enviar los datos del campo.
+- Usa `label` correctamente: mejora la accesibilidad y la experiencia de usuario.
+- No uses `button` sin `type` si está dentro de un formulario: por defecto es `submit`.
+- Usa `required`, `min`, `max`, `pattern` para validaciones sin JavaScript.
+- Para campos multiselección (`select multiple`) recuerda que necesitas manejar los datos como una lista del lado del servidor.
+
