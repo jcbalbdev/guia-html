@@ -854,3 +854,47 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 <p>La fórmula es H<sub>2</sub>O y E = mc<sup>2</sup></p>
 ```
 
+7. `<abbr>`
+
+- **Uso**: Abreviaturas con significado. Al pasar el cursor, se muestra el texto completo.
+- **Importante para accesibilidad.**
+
+```html
+<p>Estudio en la <abbr title="Universidad Peruana de Ciencias Aplicadas">UPC</abbr></p>
+```
+
+8. `<cite>`
+
+- **Uso**: Cita el nombre de una obra, libro, película o publicación.
+- **Generalmente se muestra en cursiva.**
+
+```html
+<p>Leí <cite>El Principito</cite> el año pasado.</p>
+```
+
+9. `<q>`
+
+- **Uso**: Citas textuales breves. Agrega comillas automáticamente.
+
+```html
+<p>Ella dijo: <q>No tengo tiempo para eso.</q></p>
+```
+
+10. `<blockquote>`
+
+- **Uso**: Representa una **cita larga o en bloque** proveniente de otra fuente.  
+  A diferencia de `<q>`, que se usa para **citas cortas en línea**,  
+  `<blockquote>` se usa para **fragmentos extensos** y por defecto se muestra con sangría.
+
+- **Atributos comunes**:
+  - `cite`: permite incluir la **URL de la fuente** original (opcional, no se muestra visualmente).
+  - `class`, `id`, `style`: para aplicar estilos CSS.
+
+```html
+<blockquote cite="https://www.nelsonmandela.org/">
+  La educación es el arma más poderosa que puedes usar para cambiar el mundo.
+</blockquote>
+```
+> Aunque el atributo `cite` no se muestra directamente, proporciona valor semántico y puede ser utilizado por herramientas de accesibilidad o motores de búsqueda.
+
+
