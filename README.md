@@ -50,6 +50,7 @@
 - [🧰 Nivel 2 - Formatos y Multimedia](#-nivel-2---formatos-y-multimedia)
   - [Tema 11: Formateo de texto](#tema-11-formateo-de-texto)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-6)
+    - [Advertencias clave](#advertencias-clave-9)
 
 
 
@@ -896,5 +897,16 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 </blockquote>
 ```
 > Aunque el atributo `cite` no se muestra directamente, proporciona valor semántico y puede ser utilizado por herramientas de accesibilidad o motores de búsqueda.
+
+### Advertencias clave
+
+- **No uses** `<b>` ni `<i>` solo para dar formato. Usa `<strong>` y `<em>` que tienen significado semántico.
+- Evita abusar de `<mark>` o `<del>` sin contexto real.
+- Usa `alt` + etiquetas semánticas juntas cuando involucren imágenes o íconos.
+- `<sub>` y `<sup>` no cambian el valor semántico por sí mismos. Solo son visuales.
+- Usa `<blockquote>` para textos de **más de una oración** o **párrafos completos**.
+- Usa `<q>` solo para frases breves dentro de una oración.
+- El atributo `cite` es opcional pero recomendable si se conoce la fuente.
+
 
 
