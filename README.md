@@ -53,6 +53,8 @@
     - [Advertencias clave](#advertencias-clave-9)
   - [Tema 12: Multimedia: video y audio en HTML](#tema-12-multimedia-video-y-audio-en-html)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-7)
+    - [Advertencias clave](#advertencias-clave-10)
+  - [Tema 13: Iframes y contenido embebido](#tema-13-iframes-y-contenido-embebido)
 
 
 
@@ -944,4 +946,12 @@ HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plu
 ```html
 <audio src="audio.mp3" controls></audio>
 ```
+### Advertencias clave
 
+- **Siempre incluye controles** si quieres que el usuario tenga el control sobre el contenido.
+- Algunos navegadores **bloquean autoplay** si no está silenciado (`muted`).
+- Incluye varios formatos (`mp4`, `webm`, `ogg`) para mayor compatibilidad.
+- No insertes contenido multimedia sin propósito claro: puede afectar la accesibilidad y el rendimiento.
+
+
+## Tema 13: Iframes y contenido embebido
