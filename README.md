@@ -70,6 +70,7 @@
     - [¿Cómo funciona un formulario?](#cómo-funciona-un-formulario)
     - [Notas adicionales](#notas-adicionales)
   - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
+    - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
 
 
 
@@ -1140,4 +1141,8 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 - Puedes enviar formularios incluso sin usar JavaScript. Solo con HTML.
 
 ## Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)
+
+Los campos de entrada permiten a los usuarios interactuar con los formularios introduciendo texto, eligiendo opciones, subiendo archivos, entre otros. Todos deben estar contenidos dentro de una etiqueta ``<form>`` para que sus datos sean enviados correctamente.
+
+### Etiquetas HTML asociadas a este tema
 
