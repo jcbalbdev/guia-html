@@ -69,7 +69,7 @@
     - [Atributos más comunes de `<form>`](#atributos-más-comunes-de-form)
     - [¿Cómo funciona un formulario?](#cómo-funciona-un-formulario)
     - [Notas adicionales](#notas-adicionales)
-  - [Tema 16: Campos de entrada (, , , , )](#tema-16-campos-de-entrada-----)
+  - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
 
 
 
@@ -1139,4 +1139,5 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 - El atributo `name` en los campos es **clave**: define el nombre que se usará al enviar los datos.
 - Puedes enviar formularios incluso sin usar JavaScript. Solo con HTML.
 
-## Tema 16: Campos de entrada (<label>, <input>, <textarea>, <select>, <button>)
+## Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)
+
