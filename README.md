@@ -1102,11 +1102,19 @@ Todo formulario comienza con la etiqueta `<form>`, que actúa como un contenedor
 ### Etiqueta principal: `<form>`
 
 ```html
-<form action="gracias.html" target="_blank">
-  <label for="nombre">Nombre:</label><br>
-  <input type="text" id="nombre" name="nombre"><br><br>
+<form>
+  <label for="nombre">Nombre:</label>
+  <input id="nombre" type="text" name="nombre" required>
+
+  <label for="email">Correo:</label>
+  <input id="email" type="email" name="correo" required>
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+
   <button type="submit">Enviar</button>
 </form>
+
 ```
 
 ### Atributos más comunes de `<form>`
