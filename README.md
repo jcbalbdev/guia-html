@@ -52,6 +52,7 @@
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-6)
     - [Advertencias clave](#advertencias-clave-9)
   - [Tema 12: Multimedia: video y audio en HTML](#tema-12-multimedia-video-y-audio-en-html)
+    - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-7)
 
 
 
@@ -911,7 +912,24 @@ Estas etiquetas no deben usarse para dar estilo por apariencia visual solamente 
 
 ## Tema 12: Multimedia: video y audio en HTML
 
-HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plugins como Flash. Puedes insertar videos y audios directamente en tu página usando las etiquetas <video> y <audio>. Estas etiquetas son altamente configurables y compatibles con la mayoría de navegadores modernos.
+HTML5 permite incluir contenido multimedia de forma nativa, sin necesidad de plugins como Flash. Puedes insertar videos y audios directamente en tu página usando las etiquetas `<video>` y `<audio>`. Estas etiquetas son altamente configurables y compatibles con la mayoría de navegadores modernos.
 
+### Etiquetas HTML asociadas a este tema
+
+1. `<video>`
+
+- **Uso**: Insertar archivos de vídeo.
+- **Atributos comunes**:
+
+| Atributo          | Descripción                                                                    |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `src`             | Ruta del archivo de video (alternativamente se puede usar `<source>`).         |
+| `controls`        | Muestra los controles del reproductor.                                         |
+| `autoplay`        | Reproduce automáticamente (requiere `muted` para funcionar sin interacción).   |
+| `muted`           | Silencia el audio.                                                             |
+| `loop`            | Reproduce el video en bucle.                                                   |
+| `poster`          | Imagen que se muestra antes de que se reproduzca el video.                     |
+| `width`, `height` | Define el tamaño del reproductor.                                              |
+| `preload`         | Indica si se debe cargar el video con antelación (`auto`, `metadata`, `none`). |
 
 
