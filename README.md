@@ -71,6 +71,8 @@
     - [Notas adicionales](#notas-adicionales)
   - [Tema 16: Campos de entrada (`<label>`, `<input>`, `<textarea>`, `<select>`, ``<button>``)](#tema-16-campos-de-entrada-label-input-textarea-select-button)
     - [Etiquetas HTML asociadas a este tema](#etiquetas-html-asociadas-a-este-tema-8)
+    - [1. `<label>`](#1-label)
+      - [Atributos:](#atributos)
 
 
 
@@ -1146,3 +1148,24 @@ Los campos de entrada permiten a los usuarios interactuar con los formularios in
 
 ### Etiquetas HTML asociadas a este tema
 
+### 1. `<label>`
+
+- **Uso**: Asocia un texto descriptivo con un campo del formulario.
+
+- **Ventajas**:
+  - Mejora la accesibilidad (lectores de pantalla).
+  - Al hacer clic en el `<label>`, el campo asociado se activa.
+
+---
+
+#### Atributos:
+
+| Atributo               | Descripción                        |
+| ---------------------- | ---------------------------------- |
+| `for`                  | ID del campo al que está asociado. |
+| `class`, `id`, `style` | Estilos y organización             |
+
+```html
+<label for="nombre">Nombre:</label>
+<input id="nombre" type="text" name="nombre">
+```
