@@ -1,8 +1,25 @@
-# 📘 Índice de la Guía Completa de HTML
+<h1 align="center">
+  <strong>Guía de HTML Semántico y SEO — Aprende a Escribir Código Web Limpio y Accesible</strong>
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Semántico-orange?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010" alt="HTML5 Badge" />
+  <img src="https://img.shields.io/badge/Accesibilidad-✓-success?style=for-the-badge&logo=w3c&logoColor=white&labelColor=101010" alt="Accesibilidad" />
+  <img src="https://img.shields.io/badge/Estado-En%20progreso-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=101010" alt="Estado: En progreso" />
+  <img src="https://img.shields.io/github/last-commit/jcbalbdev/guia-html?style=for-the-badge&logo=git&logoColor=white&labelColor=101010" alt="Último commit" />
+</p>
+
+---
+
+<img src="https://media.giphy.com/media/WcYnTzdrjQphdu33xs/giphy.gif" alt="Logo de Github" width="100" />
+
+> ##### Si consideras útil estos ejercicios, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
+
+# 🗺️ Índice de la Guía Completa de HTML
 
 ## Tabla de Contenidos
 
-- [📘 Índice de la Guía Completa de HTML](#-índice-de-la-guía-completa-de-html)
+- [🗺️ Índice de la Guía Completa de HTML](#-índice-de-la-guía-completa-de-html)
   - [Tabla de Contenidos](#tabla-de-contenidos)
 - [🔰 Nivel 0 - Fundamentos](#-nivel-0---fundamentos)
   - [Tema 1: ¿Qué es HTML y cómo funciona?](#tema-1-qué-es-html-y-cómo-funciona)
